@@ -77,7 +77,7 @@ const FormCreateBlog = () => {
                 name="blog-content"
                 id="blog-content"
                 rows="3"
-                className="block w-full min-h-[360px] rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 input-bordered input grow"
+                className="block w-full min-h-[300px] rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 input-bordered input grow"
               ></textarea>
             </div>
           </div>

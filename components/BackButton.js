@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const BackButton = () => {
   return (
-    <Link href={"/"} className="btn btn-neutral">
+    <Link href={"/"} className="btn btn-ghost">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"

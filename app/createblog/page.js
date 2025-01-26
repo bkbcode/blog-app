@@ -1,5 +1,6 @@
 import BackButton from "@/components/BackButton";
 import FormCreateBlog from "@/components/FormCreateBlog";
+import SignOutButton from "@/components/SignOutButton";
 
 export default function CreateBlog() {
   return (
@@ -8,7 +9,10 @@ export default function CreateBlog() {
         {/* TITLE & BACK BUTTON */}
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-bold">Create new blog</h1>
-          <BackButton />
+          <div className="flex gap-2">
+            <BackButton />
+            <SignOutButton />
+          </div>
         </div>
 
         {/* FORM */}
